@@ -2,23 +2,66 @@
 <html>
     <head>
         <title>Yankee Players</title>
-        
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Hahmlet&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+        
         
         <style>
+
             #main-header{
                 color: midnightblue;
                 background-color:gray;
                 text-align: center;
                 font-size: 45px;
                 font-family: 'Hahmlet', monospace;
+                font-weight: 600;
+                margin-top: 40px;
+                margin-bottom: 60px;
+            }
+
+            .player-header{
+                text-align: center;
+                font-family: 'Hahmlet',monospace;
+                font-weight: 500;
+                font-size: 32px;
+                text-decoration: underline;
+            }
+
+            .player-picture{
+                width: 200px;
+                border-radius: 50%;
+                border-style: solid;
+                border-color: black;
+                border-width: 5px;
+                background-color:silver;
+
+            }
+
+            .player-body{
+                margin-left: 300px;
+                margin-right: 300px;
             }
 
             body{
                 background-color: grey;
             }
+
+            p{
+                font-family: 'Hahmlet',monospace;
+                font-weight: 400;
+            }
+
+            h4{
+                font-family: 'Hahmlet',monospace;
+                font-weight: 400;
+            }
+            
+            hr{
+                height: 2px;
+                background-color: black;
+            }
+
         </style>
     </head>
 
@@ -26,7 +69,32 @@
         <h1 id="main-header"><u>Yankee Players</u></h1>
         
         <div>
+            <h2 class="player-header">Aaron Judge</h2>
+            <div style= text-align:center>
+                <img class="player-picture" src="https://a.espncdn.com/i/headshots/mlb/players/full/33192.png">
+            </div>
 
+            <div class="player-body">
+                <p>
+                    Aaron James Judge (born April 26, 1992) is an American professional baseball outfielder for the New York Yankees. 
+                    Judge was unanimously selected as the American League (AL) Rookie of the Year in 2017 and finished second in voting for the AL Most Valuable Player Award.<br><br>
+                    Judge, who played college baseball for the Fresno State Bulldogs, was selected by the Yankees in the first round of the 2013 MLB draft. 
+                    After making his MLB debut in 2016 and hitting a home run in his first MLB career at bat, Judge went on to have a record-breaking rookie season in 2017. 
+                    He was named an All-Star and won the Home Run Derby, becoming the first MLB rookie to do so. 
+                    Judge ended the season with 52 home runs, breaking Mark McGwire's MLB rookie record of 49 and the Yankees' full-season rookie record of 29 (previously held by Joe DiMaggio). 
+                    His rookie record would stand for two more years when Pete Alonso broke it in 2019 with 53 home runs. 
+                    He won the American League (AL) Rookie of the Month Awards for April, May, June, and September, as well as the AL's Player of the Month Award for June and September.<br>
+                    
+                    <div>
+                        <h4><strong>Judges Career Stats:</strong></h3>
+                            <ul>
+                                <li><strong>BA:</strong> .273  <strong>SLG:</strong> .550  <strong>OPS:</strong> .937</li>
+                                <li><strong>HR:</strong>  140</li>
+                            </ul>
+                    </div>
+                    <hr>
+                </p>
+            </div>
         </div>
 
     </body>
