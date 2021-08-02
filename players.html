@@ -9,6 +9,30 @@
         
         <style>
 
+            body{
+                background-color:#C4CED3;
+            }
+
+            p{
+                font-family: 'Hahmlet',monospace;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25px;
+            }
+
+            h4{
+                font-family: 'Hahmlet',monospace;
+                font-weight: 400;
+                font-size: 18px;
+            }
+            
+            hr{
+                height: 2px;
+                background-color: black;
+                margin-top: 30px;
+                margin-bottom: 70px;
+            }
+
             #main-header{
                 color: #0C2340;
                 text-align: center;
@@ -19,6 +43,9 @@
                 margin-bottom: 60px;
             }
 
+            .player-card{
+                box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.40);
+            }
             .player-header{
                 text-align: center;
                 font-family: 'Hahmlet',monospace;
@@ -33,8 +60,8 @@
                 border-style: solid;
                 border-color: black;
                 border-width: 5px;
-                background-color:silver;
-
+                background-color: rgba(192,192,192,1);
+                margin-bottom: 25px;
             }
 
             .player-body{
@@ -42,24 +69,10 @@
                 margin-right: 300px;
             }
 
-            body{
-                background-color:#C4CED3;
+            .player-stats{
+                text-transform: uppercase;
             }
 
-            p{
-                font-family: 'Hahmlet',monospace;
-                font-weight: 400;
-            }
-
-            h4{
-                font-family: 'Hahmlet',monospace;
-                font-weight: 400;
-            }
-            
-            hr{
-                height: 2px;
-                background-color: black;
-            }
 
         </style>
     </head>
@@ -67,7 +80,7 @@
     <body>
         <h1 id="main-header"><u>Yankee Players</u></h1>
         
-        <div>
+        <div class="player-card">
             <h2 class="player-header">Aaron Judge</h2>
             <div style= text-align:center>
                 <img class="player-picture" src="https://a.espncdn.com/i/headshots/mlb/players/full/33192.png">
@@ -85,19 +98,51 @@
                     He won the American League (AL) Rookie of the Month Awards for April, May, June, and September, as well as the AL's Player of the Month Award for June and September.<br>
                     
                     <div>
-                        <h4><strong>Judges Career Stats:</strong></h3>
-                            <ul>
-                                <li><strong>BA:</strong> .273  <strong>SLG:</strong> .550  <strong>OPS:</strong> .937</li>
-                                <li><strong>HR:</strong>  140</li>
-                            </ul>
+                        <h4><strong>Judges Career Stats:</strong></h4>
+                            <div class="player-stats">
+                                <ul>
+                                    <li><strong>ba:</strong> .273  <strong>slg:</strong> .550  <strong>ops:</strong> .937</li>
+                                    <li><strong>hr:</strong>  140</li>
+                                </ul>
+                            </div>
+                            <br>
                     </div>
-                    <hr>
                 </p>
             </div>
+        </div>
 
-            <div>
-                
+        <div class = "player-card">
+            <h2 class="player-header">Gerrit Cole</h2>
+            <div style=text-align:center>
+                <img class = "player-picture" src="https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32081.png">
             </div>
+
+            <div class="player-body">
+                <p>
+                    Gerrit Alan Cole (born September 8, 1990) is an American professional baseball pitcher for the New York Yankees. 
+                    He previously played for the Pittsburgh Pirates and Houston Astros. 
+                    Cole played for the baseball team at Orange Lutheran High School, and was selected by the Yankees in the first round of the 2008 MLB Draft. 
+                    Cole opted not to sign, and instead attended the University of California, Los Angeles (UCLA), where he played college baseball for the UCLA Bruins.<br><br>
+                    After his college baseball career, the Pirates made Cole the first overall selection in the 2011 MLB draft. 
+                    Cole made his MLB debut in 2013, and was named the National League (NL) Rookie of the Month in September 2013. 
+                    He was named the NL Pitcher of the Month for April 2015, and an MLB All-Star in 2015. The Pirates traded Cole to the Astros in the 2017–18 offseason. 
+                    On September 18, 2019, Cole became the 18th pitcher in major league history to strike out at least 300 batters in a season.
+                    On December 16, 2019, Cole signed a $324 million contract with the Yankees, the largest contract in major league history for a pitcher.
+                </p>
+                <div>
+                    <h4><strong>Coles Career Stats:</strong></h4>
+                    <div class="player-stats">
+                        <ul>
+                            <li> <strong>era:</strong> 3.19 <strong>whip:</strong> 1.107 <strong>sO9:</strong> 10.3 </li>
+                            <li><strong>so:</strong> 1606</li>
+                        </ul>
+                    </div> <br>
+                </div>
+            </div>
+        </div>
+
+        <div>
+
         </div>
 
     </body>
