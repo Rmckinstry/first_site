@@ -43,9 +43,40 @@
                 margin-bottom: 60px;
             }
 
+            .main-header-box{
+                position: relative;
+                margin-bottom: 100px;
+            }
+
+            .logo-left{
+                width: 100px;
+                height: 100px;
+                position:absolute;
+                border-radius: 50%;
+                border-style: solid;
+                border-width: 2px;
+                border-color: #0b1f46;
+                top:0%;
+                left: 30%;
+
+            }
+
+            .logo-right{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                border-style: solid;
+                border-width: 2px;
+                border-color: #0b1f46;
+                position:absolute;
+                top:0%;
+                right: 30%;
+            }
+
             .player-card{
                 box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.40);
                 padding-top: 10px;
+
             }
             .player-header{
                 text-align: center;
@@ -72,24 +103,40 @@
             }
 
             .player-body{
-                margin-left: 300px;
-                margin-right: 300px;
+                margin-left: 15%;
+                margin-right: 15%;
             }
 
+            .player-stat-card{
+                text-align: center;
+                margin-left: 35%;
+                margin-right: 35%;
+            }
             .player-stats{
                 text-transform: uppercase;
                 padding-bottom: 25px;
+                line-height: 30px;
             }
-
 
         </style>
     </head>
 
     <body>
-        <h1 id="main-header"><u>Yankee Players</u></h1>
+        <div class="main-header-box">
+            <h1 id="main-header"><u>Yankee Players</u></h1>
+            <div>
+                <div>
+                    <img class="logo-left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/NewYorkYankees_caplogo.svg/1024px-NewYorkYankees_caplogo.svg.png">
+                </div>
+                <div>
+                    <img class="logo-right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/NewYorkYankees_caplogo.svg/1024px-NewYorkYankees_caplogo.svg.png">
+                </div>
+            </div>
+        </div>
         
         <div class="player-card">
             <h2 class="player-header">Aaron Judge</h2>
+
             <div style= text-align:center>
                 <img class="player-picture" src="https://a.espncdn.com/i/headshots/mlb/players/full/33192.png">
             </div>
@@ -105,7 +152,7 @@
                     His rookie record would stand for two more years when Pete Alonso broke it in 2019 with 53 home runs. 
                     He won the American League (AL) Rookie of the Month Awards for April, May, June, and September, as well as the AL's Player of the Month Award for June and September.
                     
-                    <div>
+                    <div class="player-stat-card">
                         <h4><strong>Judges Career Stats:</strong></h4>
                             <div class="player-stats">
                                 <ul>
@@ -120,6 +167,7 @@
 
         <div class = "player-card">
             <h2 class="player-header">Gerrit Cole</h2>
+
             <div style=text-align:center>
                 <img class = "player-picture" src="https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32081.png">
             </div>
@@ -136,7 +184,7 @@
                     On September 18, 2019, Cole became the 18th pitcher in major league history to strike out at least 300 batters in a season.
                     On December 16, 2019, Cole signed a $324 million contract with the Yankees, the largest contract in major league history for a pitcher.
                 </p>
-                <div>
+                <div class="player-stat-card">
                     <h4><strong>Coles Career Stats:</strong></h4>
                     <div class="player-stats">
                         <ul>
