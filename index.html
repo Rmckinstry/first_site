@@ -13,6 +13,9 @@
 				--header-color:darkblue;
 			}
 
+			footer{
+				font-size: 10px;
+			}
 			.new-header{
 				color:darkblue;
 				color: var(--header-color, darkblue);
@@ -51,75 +54,89 @@
 	</head>
 
 	<body>
-		<h1 class="title-text road-grey-background">Ryan's Test Website </h1>
 
-		<div>
-			<a target="_blank" href="https://www.mlb.com/yankees"> <img class="medium-image" src="https://upload.wikimedia.org/wikipedia/commons/3/35/Yankees_logo.png"></a>
-			<h2 class="header-text">Yankee Facts</h2>
-			<ul class="paragraph-text">
-				<li>The Yankees have 27 World Series Championships</li>
-				<li>The Yankees have the most retired jersey numbers.</li>
-			</ul>
-		</div>
-		
-		<div>
-			<h2 class="header-text">Derek Jeter Facts</h2>
-			<ul class="paragraph-text">
-				<li>He is the only player to win both the All-Star Game MVP and the World Series MVP in the same year.</li>
-				<li>He has his own video game called Derek Jeter Pro Baseball 2008.</li>
-				<li>He was on an episode of the hit TV show Seinfeld.</li>
-				<li>He endorses a number of products including Gatorade, VISA, Nike, and Ford.</li>
-				<li>Derek has his own charitable foundation called the Turn 2 Foundation to help out kids in trouble. </li>
-				<li>He used the same type of bat, a Louisville Slugger P72, on every one of his over 14,000 at bats in the majors.</li>
-			</ul>
-			<p> Facts were found <a href="https://www.ducksters.com/sports/derek_jeter.php">here</a>.</p>
-		</div>
+		<header>
+			<h1 class="title-text road-grey-background">Ryan's Test Website </h1>
 
-		<div>
-			<h2 class="header-text">Derek Jeter Knowledge Check</h2>
-			<form action = #>
-				<input type="text" placeholder="What position did Jeter play?" required><br>
+			<a target="_blank" href="https://www.mlb.com/yankees"> <img class="medium-image" src="https://upload.wikimedia.org/wikipedia/commons/3/35/Yankees_logo.png" alt="New York Yankees logo"></a>
+		</header>
 				
-				<p class="question-text" style="margin-bottom: 8px;">What number did Jeter wear?</p>
-				<label>
-					<input id="number2" value="2" type="radio" name="jeter-jersey-number"> 2
-				</label>
-				<label>
-					<input id="number42" value="42" type="radio" name="jeter-jersey-number"> 42
-				</label>
-				<label>
-					<input id="number13" value="13" type="radio" name="jeter-jersey-number"> 13
-				</label>
-				<label>
-					<input id="number99" value="99" type="radio" name="jeter-jersey-number"> 99
-				</label><br>
+		<main>
+			<section>
+				<article>
+					<h2 tabindex ="0" class="header-text">Yankee Facts</h2>
+					<ul class="paragraph-text">
+						<li>The Yankees have 27 World Series Championships</li>
+						<li>The Yankees have the most retired jersey numbers.</li>
+					</ul>
+				</article>
 				
-				<p class="question-text" style="margin-bottom: 8px; margin-top: 30px;">Which records does Jeter hold?</p>
-				<div>
-					<label>
-						<input id="most-hits" value="most hits" type="checkbox" name="jeter-records">Most hits by a Yankee
-					</label><br>
-					<label>
-						<input id="most-games" value="most games" type="checkbox" name="jeter-records">Most games by a Yankee
-					</label><br>
-					<label>
-						<input id="world-series-mvp" value="mvp" type="checkbox" name="jeter-records">Was the World Series MVP in 2000
-					</label><br>
-				</div>
-				<button style="margin-top: 20px;" type="submit">Submit</button>
+				<article>
+					<h2 tabindex ="0" class="header-text">Derek Jeter Facts</h2>
+					<ul class="paragraph-text">
+						<li>He is the only player to win both the All-Star Game MVP and the World Series MVP in the same year.</li>
+						<li>He has his own video game called Derek Jeter Pro Baseball 2008.</li>
+						<li>He was on an episode of the hit TV show Seinfeld.</li>
+						<li>He endorses a number of products including Gatorade, VISA, Nike, and Ford.</li>
+						<li>Derek has his own charitable foundation called the Turn 2 Foundation to help out kids in trouble. </li>
+						<li>He used the same type of bat, a Louisville Slugger P72, on every one of his over 14,000 at bats in the majors.</li>
+					</ul>
+				</article>
 
-			</form>
-		</div>
+				<article>
+					<h2 tabindex ="0" class="new-header">Famous Yankee Players</h2>
+					<ol class="paragraph-text">
+						<li>Derek Jeter</li>
+						<li>Mariano Rivera </li>
+						<li>Babe Ruth</li>
+						<li>Mickey Mantel</li>
+					</ol>
+				</article>
+			</section>
+	
+			<div>
+				<h2 tabindex ="0" class="header-text">Derek Jeter Knowledge Check</h2>
+				<form action = #>
+					<input type="text" placeholder="What position did Jeter play?" required><br>
+					
+					<fieldset>
+						<legend class="question-text" style="margin-bottom: 8px; margin-top: 30px;">What number did Jeter wear?</legend>
+					
+						<input id="number2" value="2" type="radio" name="jeter-jersey-number">
+						<label for="number2">2</label>
 
-		<div>
-			<h2 class="new-header">Famous Yankee Players</h2>
-			<ol class="paragraph-text">
-				<li>Derek Jeter</li>
-				<li>Mariano Rivera </li>
-				<li>Babe Ruth</li>
-				<li>Mickey Mantel</li>
-			</ol>
-		</div>
+						<input id="number42" value="42" type="radio" name="jeter-jersey-number">
+						<label for="number42">42</label>
+
+						<input id="number13" value="13" type="radio" name="jeter-jersey-number">
+						<label for="number13">13</label>
+
+						<input id="number99" value="99" type="radio" name="jeter-jersey-number">
+						<label for ="number99">99</label><br>
+					</fieldset>
+					
+					<fieldset>
+						<legend class="question-text" style="margin-bottom: 8px; margin-top: 30px;">Which records does Jeter hold?</legend>
+						
+						<input id="most-hits" value="most hits" type="checkbox" name="jeter-records">
+						<label for="most-hits">Most hits by a Yankee</label><br>
+						
+						<input id="most-games" value="most games" type="checkbox" name="jeter-records">
+						<label for="most-games">Most games by a Yankee</label><br>
+						
+						<input id="world-series-mvp" value="mvp" type="checkbox" name="jeter-records">
+						<label for="world-series-mvp">Was the World Series MVP in 2000</label><br>
+					</fieldset>
+	
+					<button style="margin-top: 20px;" type="submit">Submit Answers</button>
+				</form>
+			</div>
+		</main>
+
+		<footer>
+			<br>
+			<p>Facts were found <a href="https://www.ducksters.com/sports/derek_jeter.php">here on the Derek jeter fact site</a>.</p>
+		</footer>
 	</body>
 </html>
 
