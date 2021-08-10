@@ -1,0 +1,17 @@
+h1,h2,h3{
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 14px;
+}
+
+img{
+    width:150px;
+}
+
+footer{
+    font-size: 10px;
+}
