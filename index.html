@@ -99,32 +99,35 @@
 				<form action = #>
 					<input type="text" placeholder="What position did Jeter play?" required><br>
 					
-					<p class="question-text" style="margin-bottom: 8px;">What number did Jeter wear?</p>
-					<label>
-						<input id="number2" value="2" type="radio" name="jeter-jersey-number"> 2
-					</label>
-					<label>
-						<input id="number42" value="42" type="radio" name="jeter-jersey-number"> 42
-					</label>
-					<label>
-						<input id="number13" value="13" type="radio" name="jeter-jersey-number"> 13
-					</label>
-					<label>
-						<input id="number99" value="99" type="radio" name="jeter-jersey-number"> 99
-					</label><br>
+					<fieldset>
+						<legend class="question-text" style="margin-bottom: 8px; margin-top: 30px;">What number did Jeter wear?</legend>
 					
-					<p class="question-text" style="margin-bottom: 8px; margin-top: 30px;">Which records does Jeter hold?</p>
-					<div>
-						<label>
-							<input id="most-hits" value="most hits" type="checkbox" name="jeter-records">Most hits by a Yankee
-						</label><br>
-						<label>
-							<input id="most-games" value="most games" type="checkbox" name="jeter-records">Most games by a Yankee
-						</label><br>
-						<label>
-							<input id="world-series-mvp" value="mvp" type="checkbox" name="jeter-records">Was the World Series MVP in 2000
-						</label><br>
-					</div>
+						<input id="number2" value="2" type="radio" name="jeter-jersey-number">
+						<label for="number2">2</label>
+
+						<input id="number42" value="42" type="radio" name="jeter-jersey-number">
+						<label for="number42">42</label>
+
+						<input id="number13" value="13" type="radio" name="jeter-jersey-number">
+						<label for="number13">13</label>
+
+						<input id="number99" value="99" type="radio" name="jeter-jersey-number">
+						<label for ="number99">99</label><br>
+					</fieldset>
+					
+					<fieldset>
+						<legend class="question-text" style="margin-bottom: 8px; margin-top: 30px;">Which records does Jeter hold?</legend>
+						
+						<input id="most-hits" value="most hits" type="checkbox" name="jeter-records">
+						<label for="most-hits">Most hits by a Yankee</label><br>
+						
+						<input id="most-games" value="most games" type="checkbox" name="jeter-records">
+						<label for="most-games">Most games by a Yankee</label><br>
+						
+						<input id="world-series-mvp" value="mvp" type="checkbox" name="jeter-records">
+						<label for="world-series-mvp">Was the World Series MVP in 2000</label><br>
+					</fieldset>
+	
 					<button style="margin-top: 20px;" type="submit">Submit</button>
 				</form>
 			</div>
