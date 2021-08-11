@@ -38,6 +38,7 @@ footer{
     position: relative;
     height: 400px;
     padding: 10px;
+    margin-bottom: -50px;
 }
 .team{
     position: absolute;
