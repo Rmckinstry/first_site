@@ -6,12 +6,55 @@ h3{
 }
 h4{
     font-size: 14px;
+    text-align: center;
 }
 
 img{
-    width:150px;
+    width: 150px;
+    display: block;
+    margin: auto;
 }
 
+header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 footer{
     font-size: 10px;
+}
+
+.division{
+    position: relative;
+    height: 400px;
+    padding: 10px;
+}
+.team{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+#team1{
+    left:10%;
+    top:50%;
+    margin: -100px 0 0 0;
+}
+#team2{
+    left:27.5%;
+    top:50%;
+    margin: -100px 0 0 0;
+}
+#team3{
+    top:50%;
+    left:50%;
+    margin: -100px 0 0 -100px;
+}
+#team4{
+    right:27.5%;
+    top:50%;
+    margin: -100px 0 0 0;
+}
+#team5{
+    right:10%;
+    top:50%;
+    margin: -100px 0 0 0;
 }
