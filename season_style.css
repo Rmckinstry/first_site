@@ -2,12 +2,20 @@ body{
     background:linear-gradient(90deg, #0C2340, #C4CED3, #C4CED3,#0C2340);
 }
 
+h1{
+    text-align: center;
+    padding: 20px;
+    color: #0C2340;
+    background-color: rgba(0,0,0,.07);
+}
 .container{
-
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(196,206,211,.7);
 }
 .year{
-
+    flex-basis: 30%;
 }
-.won{
-    
+.won h3{
+    text-decoration: underline;
 }
