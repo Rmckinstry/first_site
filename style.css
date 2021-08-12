@@ -1,0 +1,88 @@
+body{
+    background:linear-gradient(90deg, #0C2340, #C4CED3, #C4CED3,#0C2340);
+}
+h1,h2,h3{
+    text-align: center;
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 30px;
+    padding: 20px;
+}
+h3{
+    font-size: 20px;
+    padding: 20px;
+}
+h4{
+    font-size: 14px;
+    text-align: center;
+}
+
+img{
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+footer{
+    font-size: 10px;
+}
+
+.division{
+    position: relative;
+    height: 400px;
+    padding: 10px;
+    margin-bottom: -50px;
+}
+.team{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+.header-mlb{
+    position: relative;
+}
+.logo-left{
+    position: absolute;
+    left:30%;
+    bottom: -60%;
+}
+.logo-right{
+    position: absolute;
+    right:30%;
+    bottom: -60%;
+}
+#team1{
+    left:10%;
+    top:50%;
+    margin: -100px 0 0 0;
+}
+#team2{
+    left:27.5%;
+    top:50%;
+    margin: -100px 0 0 0;
+}
+#team3{
+    top:50%;
+    left:50%;
+    margin: -100px 0 0 -100px;
+}
+#team4{
+    right:27.5%;
+    top:50%;
+    margin: -100px 0 0 0;
+}
+#team5{
+    right:10%;
+    top:50%;
+    margin: -100px 0 0 0;
+}
