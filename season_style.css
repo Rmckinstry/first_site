@@ -24,7 +24,9 @@ p{
 .container{
     display: flex;
     justify-content: space-around;
+    align-items: stretch;
     padding: 2px 16px;
+    margin-bottom: 15px;
 }
 .year{
     background-color: rgba(196,206,211,.7);
